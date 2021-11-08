@@ -1,0 +1,40 @@
+.bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+.text{
+    text-decoration: none;
+}
+
+.headings {
+    /* display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 15%; */
+    display: grid;
+  grid-template-columns: repeat(5, 24%);
+  width: 400px;
+  margin-left: 350px;
+  font-size: 10px;
+  font-family: Questrial, sans-serif;
+
+  }
+
+
+  .logo{
+    display: flex;
+    justify-content:left;
+  }
+
+  .ash {
+    height: 25px;
+    background-color: rgb(233, 233, 233);
+    color: rgb(148, 149, 139);
+    font-family: Questrial, sans-serif;
+    font-size: 8.96px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 40%);
+  }
+  
